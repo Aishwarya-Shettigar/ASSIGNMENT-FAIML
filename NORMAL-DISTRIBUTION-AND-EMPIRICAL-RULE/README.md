@@ -94,6 +94,9 @@ The graph plotted represents:
 The highest point of the curve is at the mean (72 bpm).
 The curve is symmetric on both sides.
 
+<img width="580" height="435" alt="Screenshot 2026-02-19 194438" src="https://github.com/user-attachments/assets/89672a9e-26c9-40c6-9dce-d898d17ec7fa" />
+
+
 Key points marked on the graph:
 
 | Standard Deviation | Value  |
@@ -128,3 +131,54 @@ Range: 72 ± 16
 Interpretation: About 95% of healthy adults fall within this range.
 
 Values outside this range are uncommon.
+
+3) 99.7% Rule (Within 3 Standard Deviations)
+
+Range: 72 ± 24
+ - 48 bpm to 96 bpm
+
+Interpretation: Almost 99.7% of healthy adults fall within this range.
+
+Values below 48 or above 96 bpm are extremely rare and may require medical attention.
+
+### 8.Real-Life Interpretation
+**Case 1**: Person with 75 bpm
+
+Falls within 1σ -> Completely normal
+
+**Case 2**: Person with 85 bpm
+
+Falls within 2σ -> Slightly above average but still normal
+
+**Case 3**: Person with 100 bpm
+
+Outside 3σ -> Needs medical evaluation
+
+### 9.Importance in Healthcare
+
+Normal distribution helps in:
+
+- Identifying abnormal patients
+- Setting medical thresholds
+- Designing health research studies
+- Detecting early warning signs
+- Population health monitoring
+
+Doctors use statistical distribution to decide:
+ - What is normal
+ - What is borderline
+ - What is abnormal
+
+### 10.Conclusion
+
+In the Healthcare domain, adult resting heart rate follows a Normal Distribution because it is influenced by many small biological variations.
+
+Using the Empirical Rule (68–95–99.7 Rule):
+
+ * 68% of adults fall within 64–80 bpm
+
+ * 95% fall within 56–88 bpm
+
+ * 99.7% fall within 48–96 bpm
+
+This statistical model helps medical professionals detect abnormalities and improve healthcare decision-making.

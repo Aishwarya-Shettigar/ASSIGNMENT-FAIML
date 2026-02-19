@@ -149,8 +149,12 @@ Total prediction error is:
 
 As model complexity increases:
 
- -Bias decreases
+ - Bias decreases
 
 - Variance increases
 
 The optimal model lies at the balance point where total error is minimum.
+
+## 10.Conclusion
+
+**For the best fit model, we must have low bias and low variance**. Low bias ensures that the model correctly captures the true underlying pattern in the data, while low variance ensures that the model performs consistently well on new, unseen data. Therefore, a model with low bias and low variance achieves good generalization and minimizes overall prediction error.

@@ -22,7 +22,7 @@ o Offering personalized care plans
 
 o Sending medication reminders
 
-#### Business Success Criteria
+#### Business Success Criteria:
 
 • Reduction in readmission rate (e.g., by 15–20%)
 
@@ -34,7 +34,7 @@ o Sending medication reminders
 
 ### 2. Assess Situation
 
-#### Inventory of Resources
+#### Inventory of Resources:
 
 • Historical patient records
 
@@ -52,7 +52,7 @@ o Sending medication reminders
 
 • IT infrastructure (servers, hospital database systems)
 
-#### Requirements
+#### Requirements:
 
 • Accurate prediction of high-risk patients
 
@@ -62,7 +62,7 @@ o Sending medication reminders
 
 • Compliance with healthcare regulations
 
-#### Assumptions
+#### Assumptions:
 
 • Past medical history influences future readmission risk
 
@@ -70,7 +70,7 @@ o Sending medication reminders
 
 • Treatment procedures remain consistent
 
-#### Constraints
+#### Constraints:
 
 • Strict data privacy laws (healthcare data protection regulations)
 
@@ -131,4 +131,56 @@ Train models such as:
 
 -  Gradient Boosting
 
-#### Data Science Success Criteria
+#### Data Science Success Criteria:
+
+ - High prediction accuracy
+
+- High Recall for readmitted patients (important to identify high-risk patients)
+
+- Acceptable Precision (to avoid unnecessary follow-ups)
+
+- AUC-ROC score above a defined threshold (e.g., >0.85)
+
+### 4. Produce Project Plan
+
+Project Plan Overview:
+| Stage |    Activity                          | Duration           |
+|:-----:|:------------------------------------:|:------------------:|
+|1      |Business Understanding                |1 week              |
+|2     |Data Collection & Understanding        |2 weeks             |
+|3|Data Cleaning & Preparation                 |2 weeks             |
+|4      |Model Building                        |3 weeks             |
+|5      |Model Evaluation                      |1 week   |
+|6      |Deployment                          |1 week|
+|7      |Monitoring & Maintenance              |Continuous|
+
+#### Resources Needed:
+- Data Scientists
+
+- Healthcare domain experts
+
+- IT infrastructure team
+
+- Database administrators
+
+- Hospital management
+
+#### Tools & Techniques:
+
+- Python (Pandas, NumPy, Scikit-learn)
+
+- SQL for data extraction
+
+- Power BI / Tableau for visualization
+
+- Machine learning classification algorithms
+
+#### Final Outcome:
+
+- A deployed Hospital Readmission Prediction System
+
+- Enables early intervention for high-risk patients
+
+- Reduces costs and improves healthcare quality
+
+- Aligns data science goals with hospital business objectives
